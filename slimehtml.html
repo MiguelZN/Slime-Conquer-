@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> Slime Conquer </title>
+		<h1 id="gametitle">Slime Conquer</h1>
+		<span><h2 id= "gamescore"> Score: 0</h2></span>
+		<span><h2 id= "gamestatus">Click on the map to spawn</h2></span>
+		<!--<button id= "gamestart">Start</button>!-->
+		<style type="text/css">
+			
+			#gamewindow{
+				background-color: rgb(144, 133, 96);
+				margin-left: 40px;
+				margin-top: 5 px;
+			}
+
+			#gametitle{
+				font-style: normal;
+				font-weight: 500;
+				color: rgb(0,0,0);
+				margin-left: 60px;
+			}
+
+			#gamestart{
+				width: 50px;
+				height: 25px;
+			}
+		</style>
+
+	</head>
+
+
+	<body>
+		<audio id = "score_sound" src = "score.wav"></audio>
+		<canvas id = "gamewindow" height="400" width="400"></canvas>
+		<script type="text/javascript" src="slimegame.js"></script>
+	</body>
+
+</html>
